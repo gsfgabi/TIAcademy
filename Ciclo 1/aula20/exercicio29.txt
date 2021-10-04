@@ -1,0 +1,16 @@
+//Exercicio 29
+
+1. Qual a diferença da unidade de medida em e rem? 
+R: em - vai procurar a formatação de medida do proximo elemento Pai.
+
+<div id="pai">
+  <div id="filho"></div>
+</div>
+
+rem - vai procurar a unidade de medida do root (html)
+
+2. Como é criada uma variável no CSS? Dê um exemplo. 
+
+:root {
+    --nome_da_var: valor
+}

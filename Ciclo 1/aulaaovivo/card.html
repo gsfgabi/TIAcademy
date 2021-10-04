@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+    <title>Card - Meet</title>
+</head>
+<style>
+
+  /*
+      .para classe
+      # para id
+  */
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .flex {
+        display: flex;
+    }
+
+    .center-hv {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tela {
+        width: 320px;
+        height: 180px;
+        background-color: #37474f;
+        border-radius: 7px;
+        justify-content: space-between;
+    }
+
+    .topo, .rodape {
+        width: 100%;
+        height: 40px;
+        padding: 3px;
+        align-items: center;
+    }
+   
+    .bola{
+        width: 80px;
+        height: 80px;
+        background-color:#8B2E5F;
+        border-radius: 100%;
+        font-size: 42px;
+        color: white;
+
+    }
+
+    .column {
+          flex-direction: column;
+    }
+
+    .flex-end {
+        justify-content: flex-end;
+    }
+
+    .tela .topo .mic{
+        width: 35px;
+        height: 35px;
+        background-color: #455a64;
+        border-radius: 100%;
+        color: white;
+        cursor: pointer;
+    }
+
+    .rodape > label {
+        font-size: 15px;
+        font-weight: bold;
+        color: white;
+    }
+
+</style>
+<body class="flex center-hv">
+
+    <div class="tela flex column center-hv">
+        <div class="topo flex flex-end"><span class="material-icons flex mic center-hv">mic_off</span></div>
+        <div class="bola flex center-hv"><label>G</label></div>
+        <div class="rodape"><label> Gabriella Santos</label></div>
+    </div>
+</body>
+</html>

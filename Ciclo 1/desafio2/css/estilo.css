@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 200px;
+    background-color: #2196F3;
+    background: linear-gradient( to right,#0D47A1, #3D5AFE, #2196F3);
+    
+    display: flex;
+    flex-direction: column;
+    border-bottom: 4px solid #FFF;
+}
+
+header > h1 {
+    padding: 5px;
+    color: #fff;
+    text-align: center;
+    font-family: Verdana, Arial, Cursive;
+    margin-top: 40px;
+}
+
+header > h2 {
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    font-family: Verdana, Arial, Cursive;
+    text-align: center;
+    font-size: 14px;
+}
+
+main {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: auto;
+    top: 230px;
+    
+}
+
+#conteudo-geral {
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.box-custom {
+    width: 100%;
+    height: 80px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #000
+}
+
+form {
+    width: 400px;
+    height: 350px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-content {
+    justify-content: center;
+}
+
+.display-btn {
+    width: 100%;
+    height: auto;
+    padding: 4px;
+}
+
+.btn {
+    padding: 8px;
+    width: 100%;
+    border-bottom: 4px solid #0D47A1;
+    border-radius: 5px;
+    background-color: #2196F3;
+    color: white;
+    cursor: pointer;
+
+}
+
+form>label {
+    width: 100%;
+    height: auto;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, cursive;
+}
+
+form>label>input[type="text"] {
+    border: 1px solid black;
+    font-size: 14px;
+    padding: 4px;
+    border-radius: 3px;
+}
+
+#logo-principal {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #fff;
+    align-items: center;
+
+    
+}
+
+#logo-principal .logo {
+    font-size: 64px;
+    color: #2196F3;
+}
+#content-base{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    /*background-color: red;*/
+    top: 140px;
+    
+}

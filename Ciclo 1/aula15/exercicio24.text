@@ -1,0 +1,10 @@
+//Exercício 24
+
+1. O que a propriedade CSS padding irá proporcionar em um elemento HTML?
+R: Ele irá proporcionar um preenchimento interno no elemento.
+
+2. É verdade que todos os elementos HTML possuem por padrão a propriedade position no estado STICKY? 
+R: Não; por padrão é static.
+
+3. Qual é a vantagem de utilizar o atributo ALT em um elemento <img>
+R: Se por acaso a imagem não for carregada, irá aparecer uma mensagem sobre a descrição da imagem.

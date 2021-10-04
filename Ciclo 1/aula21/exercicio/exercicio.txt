@@ -1,0 +1,8 @@
+//Exercicio 30
+
+1. Qual a propriedade CSS que permite criar um efeito de sombra em um elemento HTML?
+R: box-shadow
+
+2. O que realmente garante a transmissão ou submissão de dados de um formulário?
+R: Certificado de Segurança SSL
+

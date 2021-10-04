@@ -1,0 +1,11 @@
+// Exercício 21 
+
+1. É verdade que todo arquivo CSS precisa estar dentro de outra pasta para que 
+o navegador possa renderizar os estilos das propriedades CSS?
+R: Falso; você pode ter um arquivo de estilo, fora da pasta, ele pode estar dentro da mesma pasta do seu arquivo html.
+
+2. É verdade que todo elemento HTML possui por padrão elementos filhos?
+R: Falso; alguns podem ter elementos filhos, mais nem todos tem.
+
+3. O que é o viewport? 
+R: É a tela onde o html está sendo renderizado.

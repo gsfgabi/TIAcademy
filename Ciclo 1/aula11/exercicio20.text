@@ -1,0 +1,10 @@
+1. Qual a propriedade CSS que permite aplicar um ‘degradê’ em um elemento HTML? De um exemplo.
+R: background: linear-gradient(red, black)
+
+2. Por padrão, é recomendado que a aplicação do CSS seja na forma inline ou mesmo no próprio 
+corpo do código html. 
+R: Falso; é recomendado que o css esteja em um arquivo separado.
+
+3. Qual a diferença básica entre a unidade de medida pixel (px) e a unidade em percentual (%)?
+R: px- é uma unidade fixa, se você definir que um elemento, tenha 10px, essa unidade ela é fixa.
+% - é um valor relativo, vai depender do valor do container.

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Desafio</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>ME ACHA!</h1>
+        <h2>ENCONTRE UM ENDEREÇO PELO NÚMERO DO CEP</h2>
+        <div id="content-base" class="flex justify-content">
+            <div id="logo-principal" class="flex justify-content">
+                <span class="material-icons logo">
+                    travel_explore
+                </span>
+            </div>
+        </div>
+
+    </header>
+    <main>
+
+        <div id="conteudo-geral" class="flex justify-content">
+            <div class="box-custom flex justify-content">
+                <form method="POST">
+                    <label for=""> CEP
+                        <input id="txtCep" type="text" name="cep" required>
+                    </label>
+                    <label for=""> Rua
+                        <input id="logradouro" type="text" name="rua" readonly>
+                    </label>
+                    <label for=""> Bairro
+                        <input id="bairro" type="text" name="bairro" readonly>
+                    </label>
+                    <label for=""> Cidade
+                        <input id="localidade" type="text" name="cidade" readonly>
+                    </label>
+                    <label for=""> Estado
+                        <input id="uf" type="text" name="uf" readonly>
+                    </label>
+                    <div class="display-btn flex justify-content">
+                        <input id="btnBuscar" class="btn" type="submit" value="BUSCAR" name="Buscar">
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+
+</body>
+
+</html>

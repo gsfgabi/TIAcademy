@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor-background-body: rgb(255, 249, 196);
+}
+
+body{
+    background-color: var(--cor-background-body);
+}
+
+div#forma{
+    margin: 50px auto;
+    width: 100px;
+    height: 100px;
+    background-color: chocolate;
+    border: 1px solid #000;
+    padding: 10px;
+    box-shadow: 2px 2px 4px rgb(45, 7, 80);
+}
+
+/* div#forma > #interna{
+    width: 80px;
+    height: 80px;
+    border: 1px solid red;
+    background-color: var(--cor-background-body);
+    
+}  */

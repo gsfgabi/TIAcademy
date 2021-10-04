@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+   /* header{
+        border: 1px solid black;
+        width: 80%;
+        height: 50px;
+        
+    }
+    main {
+        width: 80%;
+        height: auto;
+        border: 1px solid black;
+    }
+    article{
+        width: 100%;
+        height: auto;
+    }
+    footer {
+        width: 80%;
+        height: 50px;
+        border: 1px solid black;
+    }*/
+
+    header, main, footer {
+        width: 80%;
+        border: 1px solid black;
+        margin: 0 auto;
+    }
+
+    main, article {
+        height: auto;
+    }
+    #ajuste-margem {                  
+        margin-top: 10px;             /*para dar o espaçamento entre os retangulos*/
+        margin-bottom: 10px;
+    }
+    
+    article {
+        width: 100%;
+    }
+    header, footer{
+        height: 50px;
+    }
+    .seletor-pgr {
+        border-top: 2px solid red;
+        border-bottom: 2px solid red;
+    }
+</style>
+<body>
+    <header>Aqui está o meu header</header>
+    <main id="ajuste-margem">
+        <article>
+            <p class="seletor-pgr">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Itaque eveniet dolor, tempora aliquid sequi sunt consequuntur
+                facere quas quam ducimus aperiam. Modi accusantium placeat 
+                similique dolorem rerum, aliquam nobis consequuntur!
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Itaque eveniet dolor, tempora aliquid sequi sunt consequuntur
+                facere quas quam ducimus aperiam. Modi accusantium placeat 
+                similique dolorem rerum, aliquam nobis consequuntur!
+            </p>
+            <p class="seletor-pgr">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Itaque eveniet dolor, tempora aliquid sequi sunt consequuntur
+                facere quas quam ducimus aperiam. Modi accusantium placeat 
+                similique dolorem rerum, aliquam nobis consequuntur!
+            </p>
+        </article>
+    </main>
+    <footer>Aqui está o meu footer</footer> 
+</body>
+</html>

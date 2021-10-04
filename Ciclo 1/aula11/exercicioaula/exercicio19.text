@@ -1,0 +1,5 @@
+1- Qual a tag semântica que servirá de container para as tags de parágrafo <p>?
+R: A tag <article>
+
+2- Uma tag de parágrafo pode ser substituída por uma tag <div> principalmente para conter textos longos?
+R: Não; isso quebraria a semântica, nós já temos uma tag expecifica para ser um container de texto que é a tag <p>. 

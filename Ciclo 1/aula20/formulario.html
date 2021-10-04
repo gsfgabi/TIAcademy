@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULA 20</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        width: 80%;
+        height: auto;
+        box-sizing: border-box;
+        padding: 0;
+    }
+
+    fieldset {
+        padding: 2px;
+        border: none;
+    }
+
+    section#formulario{
+        margin: 30px auto;
+        padding: 5px;
+    }
+
+    form {
+        width: 100%;
+        height: auto;
+        padding: 2px;
+    }
+
+    label {
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 2px;
+    }
+
+    .txt {
+        width: 100%;
+        height: 30px;
+    }
+
+</style>
+<body>
+    <section id="formulario">
+        <form method="post" name="cadastro">
+            <fieldset>
+                <legend>Cadastro de Usuario</legend>
+                <label for="nomeUso">Nome</label>
+                <input type="text" required placeholder="Digite seu nome" class="txt" id="nomeUso" name="nomeUso" value="">
+                <label for="SobrenomeUso">Sobrenome</label>
+                <input type="text" class="txt" id="SobrenomeUso" name="sobrenomeUsu">
+                <label for="dataNasUsu">Data de Nacimento</label>
+                <input type="text" class="txt" id="dataNasUsu" name="dataNasUsu" value="">
+            </fieldset>
+            <fieldset>
+                <legend>Sexo</legend>
+                <label for="gereno">Masculino</label>
+                <input type="radio" id="genero" name="genero" value="m">
+                <label for="genero">Feminino</label>
+                <input type="radio" id="genero" name="genero" value="f">
+            </fieldset>
+            <fieldset>
+                <legend>Preferências de Estudo</legend>
+                <label for="php">PHP</label>
+                <input type="checkbox" id="php" name="php" value="php">
+                <label for="js">JAVASCRIPT</label>
+                <input type="checkbox" id="js" name="js" value="js">
+                <label for="html_css">HTML & CSS</label>
+                <input type="checkbox" id="html_css" name="html_css" value="html_css">
+            </fieldset>
+            <fieldset>
+                <select>
+                    <option value="">Selecione</option>
+                    <option value="Junior">Junior</option>
+                    <option value="Senior">Senior</option>
+                    <option value="Plus">Plus Plus Master</option>
+                </select>
+        </fieldset>
+        <fieldset>
+                <label for="edicao">Escreva mais sobre você</label>
+                <textarea id="edicao" cols="80" rows="10"></textarea>
+        </fieldset>
+        <input type="submit" name="enviarDados" value="ENVIAR">
+        </form>
+    </section>
+
+</body>
+</html>

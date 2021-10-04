@@ -1,0 +1,15 @@
+//Exercício 23
+
+1. Dê uma definição para o elemento HTML <body>.
+R: É um das estrututuras mais importantes do HTML, e por meio do Body que você irá construtuir toda a estrutura da sua pagina, ele corresponde ao corpo da sua pagina.
+
+2. É correto dizer que por padrão o todos os elementos HTML possuem uma definição de margin e padding?
+R: Não é correto, nem todos os elementos possui elementos pré-criados.
+
+3. Uma tag <figure> pode conter várias tags <figurecaption>
+R: Não é correto, você deve utilizar uma tag <figurecaption> para cada <figure>.
+<figure> 
+
+
+ <figurecaption></figurecaption>
+</figure>
